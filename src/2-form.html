@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a class="menu-link" href="./index.html">Go to Home</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./1-gallery.html">Go to Gallery</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <p class="title">Welcome to Form</p>
+        <form class="feedback-form" autocomplete="off">
+          <label class="form-label">
+            Email
+            <input class="input" type="email" name="email" autofocus />
+          </label>
+          <label class="form-label">
+            Message
+            <textarea class="textarea" name="message" rows="8"></textarea>
+          </label>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <script type="module" src="./js/2-form.js"></script>
+  </body>
+</html>
